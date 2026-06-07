@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.jdyrc.json
+*.js.map
+*.env
+bulk_assets.json
+nul

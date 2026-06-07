@@ -1,0 +1,41 @@
+{
+  "name": "jdy-cli",
+  "version": "1.0.0",
+  "description": "简道云 CLI 工具",
+  "keywords": ["jiandaoyun", "cli", "jdy", "api"],
+  "author": "ltaoo",
+  "files": ["dist"],
+  "main": "dist/index.js",
+  "bin": {
+    "jdy": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "axios": "^1.17.0",
+    "commander": "^12.0.0",
+    "form-data": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltaoo/jiandaoyun-cli.git"
+  },
+  "homepage": "https://github.com/ltaoo/jiandaoyun-cli#readme",
+  "bugs": {
+    "url": "https://github.com/ltaoo/jiandaoyun-cli/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "ISC",
+  "type": "commonjs"
+}
