@@ -1,7 +1,7 @@
 {
-  "name": "jdy-cli",
-  "version": "1.0.0",
-  "description": "简道云 CLI 工具",
+  "name": "jiandaoyun-cli",
+  "version": "1.0.1",
+  "description": "jiandaoyun CLI tools",
   "keywords": ["jiandaoyun", "cli", "jdy", "api"],
   "author": "ltaoo",
   "files": ["dist"],
@@ -36,6 +36,6 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs"
 }

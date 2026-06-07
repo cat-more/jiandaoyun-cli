@@ -1,4 +1,4 @@
-# jdy-cli 使用说明
+# jiandaoyun-cli 使用说明
 
 ## 目录
 

@@ -1,10 +1,12 @@
-# jdy-cli
+# jiandaoyun-cli
 
 简道云 API 命令行工具。通过终端管理应用数据、审批流程、通讯录、文件等。
 
 ## 安装
 
 ```bash
+npm install -g jiandaoyun-cli
+# 或本地安装
 npm install -g .
 # 或开发模式
 npx tsx src/index.ts
